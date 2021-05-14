@@ -1,0 +1,32 @@
+.container {
+	margin-top: 3vw;
+}
+.cart{
+	width: 100%;
+}
+.item{
+	width: 100%;
+	border: 1px solid #333;
+	border-radius: 10px;
+	padding: 1vw 2vw 4vw;
+	margin: 2vw 0;
+	background-color: rgba(204, 205, 200, 0.6)
+}
+.item h3{
+
+}
+.item button{
+	float: right;
+}
+
+.summary{
+	width: 100%;
+	margin-top: 2vw;
+	border: 1px solid #333;
+	padding: 2vw;
+	background-color: rgba(204, 205, 200, 0.6)	
+}
+hr{
+	width: 100%;
+	border-color: #000;
+}
