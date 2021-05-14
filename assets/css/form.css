@@ -1,0 +1,33 @@
+.container {
+	padding-top: 2vw;
+}
+.form-section{
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding: 2vw;
+}
+.toggle{
+	margin-left: 1vw;
+}
+.toggle .btn-group{
+	width: 100%;
+}
+.toggle .btn-group .btn{
+	margin: #000 1px solid !important;
+}
+.form{
+	margin-left: 2vw;
+	margin-top: 2vw;
+}
+.form button{
+	width: 100%;
+}
+
+
+
+@media all and (max-width: 600px){
+	.form-section {
+		margin-bottom: 5vw;
+	}
+}
