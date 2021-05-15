@@ -4,27 +4,36 @@
 .cart{
 	width: 100%;
 }
+.cart-items {
+	border: 1px solid rgba(33,33,33,0.4);
+	margin-top: 2vw;
+	border-radius: 10px;
+	margin-bottom: 2vw;
+}
 .item{
 	width: 100%;
-	border: 1px solid #333;
-	border-radius: 10px;
-	padding: 1vw 2vw 4vw;
+	padding: 1vw 2vw;
 	margin: 2vw 0;
-	background-color: rgba(204, 205, 200, 0.6)
 }
-.item h3{
-
-}
-.item button{
-	float: right;
+.item img{
+	width: 100%;
 }
 
 .summary{
 	width: 100%;
+	border-radius: 10px;
 	margin-top: 2vw;
-	border: 1px solid #333;
+	border: 1px solid rgba(33,33,33,0.4);
 	padding: 2vw;
-	background-color: rgba(204, 205, 200, 0.6)	
+}
+.summary h5{
+	font-weight: normal;
+}
+.summary p{
+	font-size: 14px;
+}
+.summary p span{
+	font-weight: 500;
 }
 hr{
 	width: 100%;
