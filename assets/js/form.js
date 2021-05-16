@@ -25,10 +25,10 @@ const toggleForm = (target) => {
 		`);
 
 		isLogin = false;
-		$('#register').removeClass('btn-outline-primary');
-		$('#register').addClass('btn-primary');
-		$('#login').removeClass('btn-primary');
-		$('#login').addClass('btn-outline-primary');
+		$('#register').removeClass('btn-outline-secondary');
+		$('#register').addClass('btn-secondary');
+		$('#login').removeClass('btn-secondary');
+		$('#login').addClass('btn-outline-secondary');
 		document.title = "Register"
 		history.replaceState('register', 'Register', '/register.html');
 	}
@@ -49,10 +49,10 @@ const toggleForm = (target) => {
 		  	<button type="submit" class="btn btn-success">Log Into Your Account</button>
 		`);
 		isLogin = true;
-		$('#register').addClass('btn-outline-primary');
-		$('#register').removeClass('btn-primary');
-		$('#login').addClass('btn-primary');
-		$('#login').removeClass('btn-outline-primary');
+		$('#register').addClass('btn-outline-secondary');
+		$('#register').removeClass('btn-secondary');
+		$('#login').addClass('btn-secondary');
+		$('#login').removeClass('btn-outline-secondary');
 		document.title = "Login"
 		history.replaceState('login', 'Login', '/login.html');
 	}
