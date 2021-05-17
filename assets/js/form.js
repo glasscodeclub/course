@@ -21,7 +21,7 @@ const toggleForm = (target) => {
 		    	<input type="checkbox" class="form-check-input" id="">
 		    	<label class="form-check-label" for="">Accept Terms and Conditions</label>
 		  	</div>
-		  	<button type="submit" class="btn btn-success">Log Into Your Account</button>
+		  	<button type="submit" class="btn btn-success">Make A New Account</button>
 		`);
 
 		isLogin = false;
@@ -29,6 +29,9 @@ const toggleForm = (target) => {
 		$('#register').addClass('btn-secondary');
 		$('#login').removeClass('btn-secondary');
 		$('#login').addClass('btn-outline-secondary');
+		if (window.innerWidth > '600') {
+			$('.img-section').css('height', '108vh');
+		}
 		document.title = "Register"
 		history.replaceState('register', 'Register', '/register.html');
 	}
@@ -53,6 +56,9 @@ const toggleForm = (target) => {
 		$('#register').removeClass('btn-secondary');
 		$('#login').addClass('btn-secondary');
 		$('#login').removeClass('btn-outline-secondary');
+		if (window.innerWidth > '600') {
+			$('.img-section').css('height', '100vh');
+		}
 		document.title = "Login"
 		history.replaceState('login', 'Login', '/login.html');
 	}
