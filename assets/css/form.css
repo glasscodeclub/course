@@ -1,9 +1,12 @@
-.page {
-	margin-top: 9vw;
-}
 .img-section{
+	background: url('/assets/img/form.jpg');
+	height: 100vh;
 	width: 100%;
-	background-color: #aaa;
+	padding-top: 9vw;
+}
+.img-section-child{
+	width: 80%;
+	margin-left: 20%;
 	height: initial;
 	padding: 2vw 1vw 1vw;
 }
@@ -17,16 +20,14 @@
 	margin-top: 2vw;
 	padding: 2vw 3vw;
 	font-size: 24px;
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,0.6);
 }
 .form-section{
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-top: 9vw;
+	width: 80%;
+	/*margin-left: 5%;*/
+	margin-right: 20%;
 	padding: 2vw;
-}
-.toggle{
-	/*margin-left: 1vw;*/
 }
 .toggle .btn-group{
 	width: 100%;
@@ -44,5 +45,25 @@
 @media all and (max-width: 600px){
 	.form-section {
 		margin-bottom: 5vw;
+	}
+	.img-section{
+		/*background: url('/assets/img/form.jpg');*/
+		height: 60vh;
+		width: 100%;
+		margin: 0;
+		padding-top: 20vw;
+	}
+	.img-section-child{
+		width: 100%;
+		margin-left: 0;
+		height: initial;
+		padding: 2vw 1vw 1vw;
+	}
+	.form-section{
+		margin-top: 9vw;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 2vw;
 	}
 }
