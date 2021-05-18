@@ -32,6 +32,9 @@ const toggleForm = (target) => {
 		if (window.innerWidth > '600') {
 			$('.img-section').css('height', '108vh');
 		}
+		else{
+			$('.img-section').css('height', '60vh');
+		}
 		document.title = "Register"
 		history.replaceState('register', 'Register', '/register.html');
 	}
@@ -58,6 +61,9 @@ const toggleForm = (target) => {
 		$('#login').removeClass('btn-outline-secondary');
 		if (window.innerWidth > '600') {
 			$('.img-section').css('height', '100vh');
+		}
+		else{
+			$('.img-section').css('height', '60vh');
 		}
 		document.title = "Login"
 		history.replaceState('login', 'Login', '/login.html');

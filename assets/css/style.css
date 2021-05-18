@@ -207,7 +207,7 @@ h6 {
   }
 }
 
-@media (max-width: 384px) {
+@media (max-width: 450px) {
   .navbar .profile-btn {
     width: 17.5%;
   }
@@ -1248,7 +1248,7 @@ section {
 }
 
 /* On screens that are less than 384px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 450px) {
   .sidebar-container {
     display: none;
   }
@@ -1353,7 +1353,7 @@ section {
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 450px) {
   .cource-details-tabs {
     margin-left: -45px;
   }
@@ -1867,7 +1867,7 @@ section {
   }
 }
 
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 450px) {
   #footer .footer-top .footer-links img {
     width: 10%;
     margin-left: 45px;
@@ -2192,7 +2192,7 @@ section {
   }
 }
 
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 450px) {
   .user-heading {
     margin-left: -15px;
     margin-right: -15px;
@@ -2277,7 +2277,7 @@ section {
   text-align: center;
 }
 
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 450px) {
   .new-courses-taken {
     padding: 50px;
     width: 70vh;
@@ -2406,7 +2406,7 @@ section {
   }
 }
 
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 450px) {
   .form-group {
     width: 100%;
   }
